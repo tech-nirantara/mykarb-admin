@@ -1,0 +1,25 @@
+.heading {
+  font-size: 18px;
+  font-weight: 600;
+  color: rgb(14, 15, 15);
+}
+
+.heading_container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.button_container {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1rem;
+}
+
+.form_container {
+  padding: 1.5rem;
+  border-radius: 5px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}

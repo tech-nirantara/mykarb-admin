@@ -1,0 +1,82 @@
+.sidebarContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logoContainer {
+  padding: 0.5rem;
+  height: 8vh;
+}
+
+.divider {
+  width: 100%;
+}
+
+.sidebarItemsContainer {
+  width: 90%;
+  font-family: "Inter", sans-serif;
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.sidebarItemLink {
+  text-decoration: none;
+  display: flex;
+  padding: 0.75rem 0.5rem 0.75rem 0;
+  border-radius: 4px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.sidebarItemLinkActive {
+  color: #fff;
+  background-color: #1c486b;
+}
+
+.sidebarItemLinkInactive {
+  color: #363940;
+  background-color: transparent;
+}
+
+.sidebarItemText {
+  margin-left: 1rem;
+  font-size: 16px;
+  font-weight: 400;
+  color: inherit;
+}
+
+.expandIcon {
+  margin-left: auto;
+  font-size: 16px;
+}
+
+.submenuContainer {
+  padding-left: 1.5rem;
+}
+
+.submenuItemLink {
+  text-decoration: none;
+  display: flex;
+  padding: 0.5rem 0 0.5rem 0.25rem;
+  border-radius: 4px;
+  align-items: center;
+  cursor: pointer;
+}
+
+.submenuItemLinkActive {
+  color: #488257;
+}
+
+.submenuItemLinkInactive {
+  color: #363940;
+}
+
+.submenuItemText {
+  font-size: 16px;
+  font-weight: 400;
+  color: inherit;
+}
